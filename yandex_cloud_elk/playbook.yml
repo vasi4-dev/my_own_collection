@@ -1,0 +1,5 @@
+---
+- name: Singletask Role ## плей для исполнения роли
+  hosts: localhost
+  roles:
+    - own

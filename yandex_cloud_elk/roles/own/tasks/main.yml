@@ -1,0 +1,6 @@
+---
+# tasks file for own
+- name: Check Module
+  ansible.builtin.my_own_module:
+    path: "/home/vs4/test_dz_checking-role.txt"
+    content: "Hello World! Yeah! Role is done! "

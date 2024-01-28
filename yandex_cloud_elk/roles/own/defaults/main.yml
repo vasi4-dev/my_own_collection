@@ -1,0 +1,4 @@
+---
+# defaults file for own
+own_path: "/home/vs4/test_dz_checking_role.txt"
+own_content: "Hello World! Role is done!"
