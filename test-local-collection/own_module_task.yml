@@ -1,0 +1,8 @@
+---
+- name: Singletask Module
+  hosts: localhost
+  tasks:
+    - name: Check Module
+      ansible.builtin.my_own_module:
+        path: "/home/vs4/test_dz_checking.txt"
+        content: "Hello World! Yeah! "
